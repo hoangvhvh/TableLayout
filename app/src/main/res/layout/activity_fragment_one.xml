@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:stretchColumns="1"
+        android:layout_margin="8dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow>
+            <TextView
+                android:text="ĐĂNG NHẬP"
+                android:layout_span="2"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_marginBottom="8dp">
+            <TextView android:text="Username" android:textStyle="bold" />
+            <EditText android:hint="Nhập id"
+                      android:background="@drawable/bg_edt"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="30dp" />
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Password"  android:textStyle="bold" />
+            <EditText android:inputType="textPassword"
+                      android:hint="Nhập mật khẩu"
+                      android:background="@drawable/bg_edt"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="30dp"/>
+        </TableRow>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:backgroundTint="@color/btnFragment1"
+                android:text="@string/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+            <Button
+                android:backgroundTint="@color/btnFragment1"
+                android:text="@string/btn_login2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+            <Button
+                android:text="@string/btn_login3"
+                android:backgroundTint="@color/btnFragment1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment One Content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_centerInParent="true" />
+    </LinearLayout>
+    </TableLayout>
+

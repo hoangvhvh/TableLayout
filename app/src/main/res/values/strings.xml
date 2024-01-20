@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TableLayout</string>
+    <string name="btn_login">OK</string>
+    <string name="btn_login2">HỦY</string>
+    <string name="btn_login3">QUÊN MẬT KHẨU</string>
+    <string name="title_user">BẢNG THÔNG TIN USERS</string>
+    <string name="title_account">Tran Duc Hoang</string>
+    <string name="university">CNTT K19</string>
+</resources>
